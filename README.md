@@ -10,3 +10,7 @@ Sito statico di Personas, pubblicato su Netlify. Nessuna build: si pubblica la r
 - `netlify.toml`: configurazione di pubblicazione
 
 Anteprima locale: `python3 -m http.server 5180` dalla radice, poi http://localhost:5180.
+
+## Pubblicazione
+
+Il sito è servito da GitHub Pages (Settings → Pages → Deploy from a branch → `main` / root). Il file `CNAME` contiene il dominio `personas.digital`. Il file `netlify.toml` resta per un eventuale deploy su Netlify.
