@@ -1,0 +1,10 @@
+# Netlify: sito statico, nessuna build. Si pubblica la cartella del repository così com'è.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
